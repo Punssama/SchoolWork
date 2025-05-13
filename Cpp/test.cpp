@@ -3,11 +3,14 @@
 #define endl '\n'
 using namespace std;
 
-void TestCase() {
+void TestCase()
+{
   string s;
   cin >> s;
-  for (int i = 1; i < s.length(); ++i) {
-    if (abs(s[i] - s[i - 1]) != 1) {
+  for (int i = 1; i < s.length(); ++i)
+  {
+    if (abs(s[i] - s[i - 1]) != 1)
+    {
       cout << "NO\n";
       return;
     }
@@ -15,7 +18,8 @@ void TestCase() {
   cout << "YES\n";
 }
 
-int main() {
+int main()
+{
   int T;
   cin >> T;
   while (T--)

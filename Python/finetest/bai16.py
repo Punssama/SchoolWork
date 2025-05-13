@@ -2,6 +2,10 @@ s = input("Nhap chuoi: ")
 d = 0
 
 
+def foo(h):
+    print(h)
+
+
 def checkExclamation(s):
     if len(s) == 0:
         return 0
@@ -9,6 +13,10 @@ def checkExclamation(s):
         for i in range(len(s) - 1, 0, -1):
             if s[i] != "!":
                 return i
+
+
+def hello():
+    print("hello world")
 
 
 k = checkExclamation(s)
