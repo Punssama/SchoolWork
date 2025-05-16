@@ -2,10 +2,6 @@ s = input("Nhap chuoi: ")
 d = 0
 
 
-def foo(h):
-    print(h)
-
-
 def checkExclamation(s):
     if len(s) == 0:
         return 0
