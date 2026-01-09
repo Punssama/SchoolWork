@@ -20,7 +20,7 @@ for i in range(0, len(strg)):
         stringList.append(strg[i])
 
 
-intList.sort(reverse=True)
-floatList.sort(reverse=True)
-stringList.sort(reverse=True)
+intList.sort()
+floatList.sort()
+stringList.sort()
 print(f"A = {intList}\nB = {floatList}\nC = {stringList}")

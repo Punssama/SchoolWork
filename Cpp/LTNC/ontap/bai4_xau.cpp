@@ -1,6 +1,6 @@
 #include <cctype>
 #include <iostream>
-#include <string>
+#include  <string>
 using namespace std;
 
 int countWords(const string &xau) {

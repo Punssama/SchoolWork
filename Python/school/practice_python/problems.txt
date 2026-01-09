@@ -1,0 +1,8 @@
+Nhập một list có n số nguyên với n>10
+1.Tính số lượng các số dương liên tiếp có tổng lớn nhất
+2.Đếm số lượng các phần tử có giá trị là x với x nhập từ bàn phím
+3.Tìm các phần tử là số nguyên tố và in ra vị trí của các phần tử đó
+4.Chèn một số m (với m nhập từ bàn phím ) vào vị trí đầu và cuối của list
+5.Tìm phần tử lớn thứ nhì và các vị trí của các phần tử đạt giá trị lớn nhì
+6.Sắp xếp list theo thứ tự tăng dần
+7.Chuyển các phần tử dương của list lên đầu và in list
